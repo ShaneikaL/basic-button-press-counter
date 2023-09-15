@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Starter from './tutorial/11-performance/starter/01-lower-state';
+// import Final from './tutorial/02-useEffect/final/05-cleanup-function';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='container'>
+          <Starter/>
+          {/*<Final />*/}
+      </div>
   );
 }
 
